@@ -4,7 +4,7 @@
  */
  // 0(n);
 var checkPerfectNumber = function (num) {
-    if (num <= 1) return;
+    if (num <= 1) return false;
     let count = 0;
     let n = num;
     for (let i = 1; i < num; i++) {
